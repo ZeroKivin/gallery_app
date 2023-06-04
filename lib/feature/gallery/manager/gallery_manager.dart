@@ -80,8 +80,6 @@ final class GalleryManager implements LifeCycle {
         error,
         stackTrase,
       );
-    } finally {
-      _isLoading = false;
     }
   }
 
